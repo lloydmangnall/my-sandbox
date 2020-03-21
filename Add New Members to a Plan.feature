@@ -1,0 +1,16 @@
+Feature: Add eligible employees to the appropriate health plans
+  
+  Background: Employee is eligible for health benefits
+    Given a Person is an active employee at the company
+    And they have enrolled in an eligibile benefit plan
+  
+  Scenario: 
+    When ...
+    Then ...
+    
+  Scenario:
+    Given ...
+    When ...
+    Then ...
+    
+    
